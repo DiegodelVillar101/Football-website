@@ -7,10 +7,51 @@
 
 .container{
     position: relative;
-    widows: 100%;
+    width: 100%;
     min-height: 100vh;
     background: #222;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.container .content{
+    position: relative;
+    padding: 100px 50px 100px 150px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.container .content h2{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.container .content p{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.container .content a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background: #ff2562;
+    color: #fff;
+    text-decoration: none;
+    text-transform: none;
+    font-size: .95em;
+    font-weight: 700;
+    letter-spacing: 1.5em;
+}
+
+.container .imgbx{
+    position: relative;
+    padding-right: 100px;
+}
+
+.container .imgbx img{
+    max-width: 500px;
 }
