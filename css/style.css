@@ -44,7 +44,7 @@
     text-transform: none;
     font-size: .95em;
     font-weight: 700;
-    letter-spacing: 1.5em;
+    letter-spacing: 2px;
 }
 
 .container .imgbx{
@@ -55,3 +55,49 @@
 .container .imgbx img{
     max-width: 500px;
 }
+
+.nav{
+    position: absolute;
+    bottom: 75px;
+    left: 150px;
+    display: flex;
+}
+
+.nav li{
+    list-style: none;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #999;
+    margin-right: 30px;
+    font-size: .9em;
+}
+
+.nav li a:hover{
+    color: #fff;
+}
+
+.sci{
+    position: absolute;
+    bottom: 75px;
+    left: 150px;
+    display: flex;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li a{
+    text-decoration: none;
+    color: #999;
+    margin-right: 30px;
+    font-size: .9em;
+}
+
+.sci li a:hover{
+    color: #fff;
+}
+
+
